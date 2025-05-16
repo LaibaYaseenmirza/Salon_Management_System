@@ -1,0 +1,58 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgb(230, 83, 107);
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('salon.jpg') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .carousel-item img{
+            width:70%;
+            height: 80vh;
+        }
+        .container {
+            padding: 2rem;
+            text-align: center;
+        }
+        .services, .testimonials {
+            margin: 2rem 0;
+        }
+        .service, .testimonial {
+            margin: 1rem 0;
+        }
+        footer {
+            background: #264653;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
